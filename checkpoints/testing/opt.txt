@@ -1,0 +1,35 @@
+------------ Options -------------
+aspect_ratio: 1.0
+batchSize: 1
+checkpoints_dir: ./checkpoints
+dataroot: ./datasets/testingSamples/A
+dataset_mode: single
+display_winsize: 256
+fineSize: 256
+geometry: rot
+gpu_ids: []
+init_type: normal
+input_nc: 3
+isTrain: False
+loadSize: 288
+max_dataset_size: inf
+model: test
+nThreads: 16
+n_layers_D: 3
+name: testing
+ndf: 64
+ngf: 64
+no_dropout: False
+no_flip: False
+norm: instance
+ntest: inf
+output_nc: 3
+phase: test
+resize_or_crop: resize_and_crop
+results_dir: ./results/
+serial_batches: False
+which_direction: AtoB
+which_epoch: latest
+which_model_netD: basic
+which_model_netG: unet_256
+-------------- End ----------------
